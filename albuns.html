@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbuns</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="p-3 mb-2 text-white" style="background-color: #282120;">
+    <header class="d-flex justify-content-between">
+
+        <div>
+    
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">+</button>
+    
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header" style="background-color: #282120;">
+              <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel" style="color: whitesmoke">SUA BIBLIOTECA</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body " style="background-color: #282120; color: whitesmoke">
+    
+              <a href="favoritas.html"
+                class="d-flex link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                style="margin-bottom: 2rem; height: 20px; width: 20px;">
+                <img src="assets/🦆 icon _heart_.png" alt="icon-coração">
+                <p style="margin-left: 1rem;">Favoritas</p>
+              </a>
+    
+              <a href="artistas.html"
+                class="d-flex link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                style="margin-bottom: 2rem; height: 25px; width: 20px;">
+                <img src="assets/🦆 icon _star_.png" alt="icon-estrela">
+                <p style="margin-left: 1rem;">Artistas</p>
+              </a>
+    
+              <a href="#" class="d-flex link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                style="height: 25px; width: 20px; margin-bottom: 2rem;">
+                <img src="assets/🦆 icon _Compact Disc_.png" alt="icon-disco">
+                <p style="margin-left: 1rem;">Álbuns</p>
+              </a>
+    
+    
+              <div class="div-tocando-agora">
+                <img src="assets/eminem.jpg" alt="" class="tocando-agora">
+              </div>
+              <a href="#" class="link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
+    
+                <div class="controles">
+                  <img src="assets/seta-esquerda.png" alt="">
+                  <img src="assets/play.png" alt="">
+                  <img src="assets/seta-direita.png" alt="">
+                </div>
+    
+              </a>
+              <input type="range" class="form-range" id="customRange1">
+    
+            </div>
+          </div>
+          <!-- O RESTO DO HEADER SEM O BOOTSTRAP -->
+    
+          <img src="assets/🦆 icon _search normal 1_.png" alt="icon-lupa" svg class="bd-placeholder-img rounded-pill">
+          <input type="text" name="pesquisa" placeholder="O que vamos ouvir hoje?" id="pesquisa" dy=".3em">
+    
+        </div>
+        <!-- logo -->
+        <a href="index.html">
+          <img src="assets/harpa icon_resized.png" alt="logo" style="width: 4rem; padding-bottom: 1rem;">
+        </a>
+        <!-- login -->
+        <a href="login.html" class="bd-placeholder-img rounded-pill" style="width: 7rem; ">
+    
+          <img src="assets/🦆 icon _profile circle_.png" alt="profile" class="">
+        </a>
+    
+    
+      </header>
+
+      <main>
+
+    <h4>Lançamentos</h4>
+
+    <div class="lancamentos"> 
+
+
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+            <div class="col-md-4">
+                <img src="assets/poly.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title">New Levels New Devils</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam voluptatem quas laborum?</p>
+                <p class="card-text"><small class="text-body-secondary">Escute Agora</small></p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+            <div class="col-md-4">
+                <img src="assets/Austin_-_Post_Malone.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title">Austin</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam voluptatem quas laborum?</p>
+                <p class="card-text"><small class="text-body-secondary">Escute Agora</small></p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+            <div class="col-md-4">
+                <img src="assets/dos predios deluxe.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title">Dos Prédios Deluxe</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam voluptatem quas laborum?</p>
+                <p class="card-text"><small class="text-body-secondary">Escute Agora</small></p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- ESCUTADOS -->
+
+    <h4>Escutados Recentemente</h4>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="assets/nevermind.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nevermind</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/taylor.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">1989 Deluxe</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/igor.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Igor</h5>
+            </div>
+          </div>
+        </div>
+
+    <div style="display: flex; gap: 2.5rem;">
+
+   
+
+
+
+        <div class="col">
+          <div class="card">
+            <img src="assets/Scaled-and-Icy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Scaled and Icy</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="assets/maquina do tempo.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Máquina do Tempo</h5>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card">
+            <img src="assets/Utopia_-_Travis_Scott.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Utopia</h5>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+    </main>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>
